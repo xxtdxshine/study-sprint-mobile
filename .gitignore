@@ -1,0 +1,37 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node.js
+node_modules/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated study artifacts
+material-manifest.json
+extraction-report.json
+language-report.json
+sample-study-data.json
+sample-study-data-validation.json
+study-data.json
+study-data-validation.json
+extracted/
+*-sample.html
+*-mobile.html
+*-小样.html
+*-手机版.html
