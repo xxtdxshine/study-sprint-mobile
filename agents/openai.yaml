@@ -1,0 +1,7 @@
+interface:
+  display_name: "Study Sprint Mobile / 抱佛脚"
+  short_description: "Build an offline mobile study tool / 制作离线手机复习工具"
+  brand_color: "#0ABAB5"
+  default_prompt: "Use $study-sprint-mobile to turn my materials folder into a source-grounded offline mobile study tool; Chinese requests such as 帮我制作抱佛脚工具 should invoke it too."
+policy:
+  allow_implicit_invocation: true
